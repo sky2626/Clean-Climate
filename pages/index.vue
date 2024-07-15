@@ -1,5 +1,7 @@
 <template>
-    <div>
-        <p class="bg-blue-200">the site is underconstruction</p>
+    <div class="flex justisfy-center">  
+        <h1 class="text-3xl font-bold">
+            Welcome to Clean Climate
+        </h1>
     </div>
 </template>
