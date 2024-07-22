@@ -30,10 +30,10 @@
               <NuxtLink to="/about">About</NuxtLink>
             </li>
             <li class="text-lg text-[#3c3939] font-semibold text-semibold px-2 rounded-lg hover:bg-[#447c5a] hover:text-white">
-              <NuxtLink to="/effect">Effects</NuxtLink>
+              <NuxtLink to="/effects">Effects</NuxtLink>
             </li>
             <li class="text-lg text-[#3c3939] font-semibold text-semibold px-2 rounded-lg hover:bg-[#447c5a] hover:text-white">
-              <NuxtLink to="/solution">Solutions</NuxtLink>
+              <NuxtLink to="/solutions">Solutions</NuxtLink>
             </li>
             <li class="text-lg text-[#3c3939] font-semibold text-semibold px-2 rounded-lg hover:bg-[#447c5a] hover:text-white">
               <NuxtLink to="/projects">Resoures</NuxtLink>
