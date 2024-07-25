@@ -1,5 +1,5 @@
 <template>
-    <nav class="fixed w-full pt-4 px-[18px] bg-transparent">
+    <nav class="fixed w-full py-4 px-[18px] bg-white">
       <div class="flex items-center justify-between md:mx-24">
   
         <!-- Header logo -->
@@ -23,25 +23,25 @@
         <!-- Navbar -->
         <div class="hidden md:block">
           <ul class="flex items-center space-x-3 text-sm font-sans ">
-            <li class="text-lg text-[#3c3939] font-semibold text-semibold px-2 rounded-lg hover:bg-[#447c5a] hover:text-white">
+            <li class="text-lg text-[#447c5a] font-semibold text-semibold px-2 rounded-lg hover:bg-[#447c5a] hover:text-white">
               <NuxtLink to="/">Home</NuxtLink>
             </li>
-            <li class="text-lg text-[#3c3939] font-semibold text-semibold px-2 rounded-lg hover:bg-[#447c5a] hover:text-white">
+            <li class="text-lg text-[#447c5a] font-semibold text-semibold px-2 rounded-lg hover:bg-[#447c5a] hover:text-white">
               <NuxtLink to="/about">About</NuxtLink>
             </li>
-            <li class="text-lg text-[#3c3939] font-semibold text-semibold px-2 rounded-lg hover:bg-[#447c5a] hover:text-white">
+            <li class="text-lg text-[#447c5a] font-semibold text-semibold px-2 rounded-lg hover:bg-[#447c5a] hover:text-white">
               <NuxtLink to="/effects">Effects</NuxtLink>
             </li>
-            <li class="text-lg text-[#3c3939] font-semibold text-semibold px-2 rounded-lg hover:bg-[#447c5a] hover:text-white">
+            <li class="text-lg text-[#447c5a] font-semibold text-semibold px-2 rounded-lg hover:bg-[#447c5a] hover:text-white">
               <NuxtLink to="/solutions">Solutions</NuxtLink>
             </li>
-            <li class="text-lg text-[#3c3939] font-semibold text-semibold px-2 rounded-lg hover:bg-[#447c5a] hover:text-white">
+            <li class="text-lg text-[#447c5a] font-semibold text-semibold px-2 rounded-lg hover:bg-[#447c5a] hover:text-white">
               <NuxtLink to="/projects">Resoures</NuxtLink>
             </li>
-            <li class="cta text-black border-2 border-black h-10 w-28 hover:text-white hover:border-[#447c5a] hover:bg-[#447c5a] px-3 py-2 rounded-full text-center font-semibold">
+            <li class="cta text-[#447c5a] border-2 border-[#447c5a] h-10 w-28 hover:text-white hover:border-[#447c5a] hover:bg-[#447c5a] px-3 py-2 rounded-full text-center font-semibold">
               <NuxtLink to="/Get involve">Contact Us</NuxtLink>
             </li>
-            <li class="cta text-white bg-[#3c3939] h-10 w-28 hover:bg-[#447c5a] px-3 py-2 rounded-full text-white text-center font-semibold">
+            <li class="cta text-white bg-[#447c5a] h-10 w-28 hover:bg-[#447c5a] px-3 py-2 rounded-full text-white text-center font-semibold">
               <NuxtLink to="/contact">Get Involve</NuxtLink>
             </li>
             
@@ -82,19 +82,19 @@
           </span>
   
           <ul class="divide-y font-sans">
-            <li @click="isOpen = false" class="text-[#3c3939] text-lg my-4 rounded-full hover:text-[#D4C3EF]">
+            <li @click="isOpen = false" class="text-[#447c5a] text-lg my-4 rounded-full hover:text-[#D4C3EF]">
               <NuxtLink to="/">Home</NuxtLink>
             </li>
-            <li @click="isOpen = false" class="text-[#3c3939]  text-lg my-4 rounded-full hover:text-[#D4C3EF]">
+            <li @click="isOpen = false" class="text-[#447c5a]  text-lg my-4 rounded-full hover:text-[#D4C3EF]">
               <NuxtLink to="/about">About</NuxtLink>
             </li>
-            <li @click="isOpen = false" class="text-[#3c3939] text-lg my-4 rounded-full hover:text-[#D4C3EF]">
+            <li @click="isOpen = false" class="text-[#447c5a] text-lg my-4 rounded-full hover:text-[#D4C3EF]">
               <NuxtLink to="/solutions">Effects</NuxtLink>
             </li>
-            <li @click="isOpen = false" class="text-[#3c3939] text-lg my-4 rounded-full hover:text-[#D4C3EF]">
+            <li @click="isOpen = false" class="text-[#447c5a] text-lg my-4 rounded-full hover:text-[#D4C3EF]">
               <NuxtLink to="/solutions">Resourses</NuxtLink>
             </li>
-            <li @click="isOpen = false" class="text-[#3c3939] text-lg my-4 rounded-full hover:text-[#D4C3EF]">
+            <li @click="isOpen = false" class="text-[#447c5a] text-lg my-4 rounded-full hover:text-[#D4C3EF]">
               <NuxtLink to="/projects">contact Us</NuxtLink>
             </li>
             <li @click="isOpen = false" class=" text-lg text-center text-white px-4 py-2 bg-[#9747FF] rounded-full hover:text-[#D4C3EF]">
