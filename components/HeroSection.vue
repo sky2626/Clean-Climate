@@ -1,5 +1,5 @@
 <template>
-<div class="back  flex h-screen justify-center items-center dark:bg-slate-800">
+<div class="back flex h-screen justify-center items-center dark:bg-slate-800">
     <div class="mx-auto mt-10 flex justify-center px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8">
         <div class="text-center text-animate ">
             <h1
@@ -25,10 +25,10 @@
                 Enabling public awareness of climate issues to safeguard Earth with minimal environmental impact, fostering a sustainable future for generations to come.
             </p>
             <div class="flex flex-col gap-4 md:flex-row justify-center mt-4">
-                <div class="text-white bg-[#447c5a] hover:bg-[#447c5a] px-24 py-4 rounded-full text-white text-center font-semibold md:mix-w-36">
+                <div class="text-white bg-[#447c5a] hover:bg-[#447c5a] px-24 py-4 rounded-full text-white text-center font-semibold md:mix-w-36 drop-shadow-lg shadow shadow-gray-500">
                     <NuxtLink to="/contact">Join us</NuxtLink>
                 </div>
-                <div class="text-white border-2 border-[#447c5a] hover:bg-[#447c5a] px-24 py-4 rounded-full text-white text-center font-semibold md:mix-w-36">
+                <div class="text-white border-2 border-[#447c5a] hover:bg-[#447c5a] px-24 py-4 rounded-full text-white text-center font-semibold md:mix-w-36 ">
                     <NuxtLink to="/contact">Supponser Us</NuxtLink>
                 </div>
             </div>
@@ -44,6 +44,28 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
+
+    .bg-animate {
+  /* Initial state (hidden) */
+    opacity: 0;
+    transform: translateY(20px); /* Add some vertical offset */
+
+  /* Animation properties */
+    animation: text-animation 1s ease-in-out forwards;
+}
+
+@keyframes bg-animation {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
     .text-animate {
   /* Initial state (hidden) */
     opacity: 0;
