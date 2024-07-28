@@ -27,10 +27,19 @@
                 <Button> learn more </Button>
             </div>
         </div>
-        <div>
-            <NatureCard 
-            title="Nature"
-            />
+        <div class="flex flex-col md:flex-row justify-center items-center gap-[18px] mt-24">
+            <div class="flex bg-[#e9fbc9] flex-row flex-col bg- rounded-[40px] px-36 md:px-24 py-[48px] justify-center">
+                <h2 class="text-xl font-bold text-[#486415]">We</h2>
+            </div>
+            <div class="flex bg-[#3c487d] flex-row flex-col rounded-[40px] px-36 md:px-24 py-[48px] justify-center">
+                <h2 class="text-xl font-bold text-[#c9d2fb]">Protect</h2>
+            </div>
+            <div class="flex bg-[#fbdfc9] flex-row flex-col rounded-[40px] px-36 md:px-24 py-[48px] justify-center">
+                <img src="/arrow.svg" alt="arrow image">
+            </div>
+            <div class="flex bg-[#c9fbf9] flex-row flex-col rounded-[40px] px-36 md:px-24 py-[48px] justify-center">
+                <h2 class="text-xl font-bold text-[#185755]">Nature</h2>
+            </div>
         </div>
     </div>
 </template>

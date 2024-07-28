@@ -1,8 +1,8 @@
 <template>
     <div class="flex md:flex-row justify-cneter items-center gap-[18px] ">
-        <div class="flex flex-row bg-gray-100 rounded-3xl">
-            <div class="p-6">
-                <h2 class="text-xl font-bold mb-2 text-gray-600">{{ title }}</h2>
+        <div class="flex flex-row bg-gray-100 rounded-[40px]">
+            <div class="px-24 py-[48px]">
+                <h2 class="text-xl font-bold text-gray-600">{{ title }}</h2>
             </div>
         </div>
 
