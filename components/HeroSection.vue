@@ -29,7 +29,7 @@
                     <NuxtLink to="/contact">Join us</NuxtLink>
                 </div>
                 <div class="text-white border-2 border-[#447c5a] hover:bg-[#447c5a] px-24 py-4 rounded-full text-white text-center font-semibold md:mix-w-36 ">
-                    <NuxtLink to="/contact">Supponser Us</NuxtLink>
+                    <NuxtLink to="/contact">Sponsor Us</NuxtLink>
                 </div>
             </div>
         </div>

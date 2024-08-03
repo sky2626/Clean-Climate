@@ -8,7 +8,7 @@ import AllCard from '~/components/AllCard.vue';
             <HeroSection />
         </div>
         
-        <div class="px-[18px] mt-8 gap-[18px] flex flex-col md:flex-row justify-center" >
+        <div class="px-[18px] my-[200px] gap-[18px] flex flex-col md:flex-row justify-center" >
             <Card 
                 image="/bulb.png"
                 title="Afforestation Impact on the environment"
@@ -45,23 +45,26 @@ import AllCard from '~/components/AllCard.vue';
                 <h2 class="text-xl font-bold text-[#185755]">Nature</h2>
             </div>
         </div>
-        <div class="flex flex-col md:flex-row px-[18px] md:px-[450px] justify-center items-center md:justify-between mt-[18px]">
+        <div class="flex flex-col md:flex-row px-[18px] md:px-[450px] justify-center items-center md:justify-between mt-[50px]">
             <h1 class="text-gray-600 text-4xl font-extrabold text-center md:text-start">Our initiatives for the 2024</h1>
             <p class="text-gray-400 text-center md:text-end w-[300px]">Find out the projects that we are undertaking this year.</p>
         </div>
-        <div class="flex justify-center"> 
-            <UContainer>
-                <Table />
-            </UContainer>
+        <div class="mx-[430px] mt[50px]"> 
+            
+            <Mytable />
         </div>
-        <div class="flex justify-center gap-4 py-24">
-            <div class="max-w-[800px]">
+        <div class="flex justify-center items-center mx-[18px] flex-col md:flex-row gap-8 py-[200px]">
+            <div class="max-w-[600px]">
                 <AllCard />
             </div>
             
             <div>
                 <h1 class="text-3xl font-bold text-black">What is Climate Change</h1>
-                <p></p>
+                <p>long-term alterations in the average weather patterns on Earth. 
+                    While the Earth's climate has always changed over geological time, 
+                    recent decades have seen a significant increase in the rate of change, 
+                    largely due to human activities.
+                </p>
             </div>
         </div>
 
