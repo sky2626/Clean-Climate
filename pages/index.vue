@@ -49,24 +49,24 @@ import AllCard from '~/components/AllCard.vue';
             <h1 class="text-gray-600 text-4xl font-extrabold text-center md:text-start">Our initiatives for the 2024</h1>
             <p class="text-gray-400 text-center md:text-end w-[300px]">Find out the projects that we are undertaking this year.</p>
         </div>
-        <div class="mx-[430px] mt[50px]"> 
+        <div class="mx-[430px] mt[50px] mb-[100px]"> 
             
             <Mytable />
         </div>
-        <div class="flex justify-center items-center mx-[18px] flex-col md:flex-row gap-8 py-[200px]">
+        <div class="flex justify-center items-center mx-[18px] md:mx-[320px] rounded-lg shadow-xl flex-col md:flex-row gap-8  ">
             <div class="max-w-[600px]">
                 <AllCard />
             </div>
-            
-            <div>
-                <h1 class="text-3xl font-bold text-black">What is Climate Change</h1>
-                <p>long-term alterations in the average weather patterns on Earth. 
+            <div clss="p-4">
+                <h1 class="text-3xl text-gray-600 font-bold text-black">What is Climate Change</h1>
+                <p class="text-gray-400">long-term alterations in the average weather patterns on Earth. 
                     While the Earth's climate has always changed over geological time, 
                     recent decades have seen a significant increase in the rate of change, 
                     largely due to human activities.
                 </p>
             </div>
         </div>
+
 
     </div>
 </template>
