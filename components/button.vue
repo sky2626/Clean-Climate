@@ -40,7 +40,7 @@
       variantClass() {
         switch (this.variant) {
           case 'primary':
-            return 'bg-[#447c5a] text-white hover:bg-green-700';
+            return 'bg-green-600 text-white hover:bg-green-700';
           case 'secondary':
             return 'bg-gray-200 text-gray-700 hover:bg-gray-300';
           // Add more variants as needed
