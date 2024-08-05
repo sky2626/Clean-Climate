@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import AllCard from '~/components/AllCard.vue';
+import BlogPostsHome from '~/components/BlogPostsHome.vue';
 </script>
 
 <template>
@@ -32,24 +33,19 @@ import AllCard from '~/components/AllCard.vue';
             </div>
         </div>
         <div class="flex flex-col md:flex-row justify-center items-center gap-[18px] mt-24 mx-[18px]">
-            <div class="flex bg-[#e9fbc9] rounded-[40px] px-36 md:px-24 py-[48px] justify-center">
-                <h2 class="text-xl font-bold text-[#486415]">We</h2>
-            </div>
-            <div class="flex bg-[#3c487d] rounded-[40px] px-36 md:px-24 py-[48px] justify-center">
-                <h2 class="text-xl font-bold text-[#c9d2fb]">Protect</h2>
-            </div>
+            <h2 class="text-xl bg-[#e9fbc9] rounded-[40px] px-36 md:px-24 py-[48px] font-bold text-[#486415]">We</h2>
+            <h2 class="text-xl bg-[#3c487d] rounded-[40px] px-36 md:px-24 py-[48px] font-bold text-[#c9d2fb]">Protect</h2>
             <div class="flex bg-[#fbdfc9] rounded-[40px] px-36 md:px-24 py-[48px] justify-center">
                 <img src="/arrow.svg" alt="arrow image">
             </div>
-            <div class="flex bg-[#c9fbf9] rounded-[40px] px-36 md:px-24 py-[48px] justify-center">
-                <h2 class="text-xl font-bold text-[#185755]">Nature</h2>
-            </div>
+            <h2 class="text-xl bg-[#c9fbf9] rounded-[40px] px-36 md:px-24 py-[48px] font-bold text-[#185755]">Nature</h2>
+            
         </div>
         <div class="flex flex-col md:flex-row px-[18px] md:px-[450px] justify-center items-center md:justify-between mt-[50px]">
             <h1 class="text-gray-600 text-4xl font-extrabold text-center md:text-start">Our initiatives for the 2024</h1>
             <p class="text-gray-400 text-center md:text-end w-[300px]">Find out the projects that we are undertaking this year.</p>
         </div>
-        <div class="mx-[430px] mt[50px] mb-[100px]"> 
+        <div class="mx-[18px] md:mx-[430px] mt[50px] mb-[100px]"> 
             
             <Mytable />
         </div>
@@ -57,7 +53,7 @@ import AllCard from '~/components/AllCard.vue';
             <div class="max-w-[600px]">
                 <AllCard />
             </div>
-            <div clss="p-4">
+            <div clss="p-[18px] ">
                 <h1 class="text-3xl text-gray-600 font-bold text-black">What is Climate Change</h1>
                 <p class="text-gray-400">long-term alterations in the average weather patterns on Earth. 
                     While the Earth's climate has always changed over geological time, 
@@ -67,6 +63,49 @@ import AllCard from '~/components/AllCard.vue';
             </div>
         </div>
 
-
+        <div>
+            
+            <UContainer>
+                <Placeholder class="h-32" />
+                <div class="mt-[100px]">
+                    <h1 class='text-3xl text-gray-600 font-bold'>Latest Update</h1>
+                    <hr>
+                    <div>
+                        <BlogPostsHome />
+                    </div>
+                </div>  
+                <div>  
+                    <!-- <Youtube :videoId="videoId" /> -->
+                </div>
+            </UContainer>
+            
+        </div>
     </div>
 </template>
+
+<!-- <script>
+import Youtube from './components/Youtube.vue'
+
+export default {
+  components: {
+    Youtube
+  },
+  data() {
+    return {
+      videoId: ''
+    }
+  },
+  async mounted() {
+    try {
+      const response = await fetch(`https://www.googleapis.com/youtube/v3/videos?id=YOUR_VIDEO_ID&key=YOUR_API_KEY&part=snippet,contentDetails,statistics,status`);
+      const data = await response.json();
+      if (data.items && data.items.length > 0) {
+        this.videoId = data.items[0].id;
+      }
+    } catch (error) {
+      console.error('Error fetching YouTube video:', error);
+    }
+  }
+}
+</script>
+ -->

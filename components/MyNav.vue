@@ -36,7 +36,15 @@
               <NuxtLink to="/solutions">Solutions</NuxtLink>
             </li>
             <li class="text-lg text-[#447c5a] font-semibold text-semibold px-2 rounded-lg hover:bg-[#447c5a] hover:text-white">
-              <NuxtLink to="/projects">Resoures</NuxtLink>
+              <UPopover mode="hover">
+                <UButton color="white" label="Resources" trailing-icon="i-heroicons-chevron-down-20-solid" />
+                <template #panel>
+                  <div class="p-2">
+                    <Placeholder class="h-20 w-[100px]" />
+                    <NuxtLink to="/blog">Blog</NuxtLink>
+                  </div>
+                </template>
+              </UPopover>
             </li>
             <li class="cta text-[#447c5a] border-2 border-[#447c5a] h-10 w-28 hover:text-white hover:border-[#447c5a] hover:bg-[#447c5a] px-3 py-2 rounded-full text-center font-semibold">
               <NuxtLink to="/Get involve">Contact Us</NuxtLink>

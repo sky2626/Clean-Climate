@@ -1,6 +1,6 @@
 <template>
 <div class="back flex h-screen justify-center items-center dark:bg-slate-800">
-    <div class="mx-auto mt-10 flex justify-center px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8">
+    <div class="mx-auto flex justify-center sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8">
         <div class="text-center text-animate ">
             <h1
                 class="text-4xl font-extrabold tracking-tight text-gray-900 dark:text-slate-200 sm:text-5xl md:text-6xl">

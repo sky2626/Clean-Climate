@@ -1,0 +1,16 @@
+[
+    {
+      "id": 1,
+      "title": "Blog Post 1",
+      "description": "This is the description for the first blog post.",
+      "imageUrl": "/public/blog/blog01.jpg",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    },
+    {
+      "id": 2,
+      "title": "Blog Post 2",
+      "description": "This is the description for the second blog post.",
+      "imageUrl": "/public/blog/blog02.jpg",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    }
+]
