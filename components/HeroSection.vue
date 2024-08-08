@@ -1,89 +1,50 @@
-<template>
-<div class="back flex h-screen justify-center items-center dark:bg-slate-800">
-    <div class="mx-auto flex justify-center sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8">
-        <div class="text-center text-animate ">
-            <h1
-                class="text-4xl font-extrabold tracking-tight text-gray-900 dark:text-slate-200 sm:text-5xl md:text-6xl">
-                <span class="block xl:inline"><span class="mb-1">Let's create a </span>
-                <span class="bg-gradient-to-r from-indigo-400 to-pink-600 bg-clip-text text-transparent">
-                    savoury and
-                </span>
-                </span>
-                <div class="mt-2 "> <span class="border-2 rounded-full px-6 border-dashed">cleaner</span> 
-                    <span class="relative mt-3 whitespace-nowrap text-blue-600"><svg aria-hidden="true" viewBox="0 0 418 42"
-                        class="absolute top-3/4 left-0 right-0 m-auto h-[0.58em] w-fit fill-pink-400/50"
-                        preserveAspectRatio="none">
-                        <path
-                            d="M203.371.916c-26.013-2.078-76.686 1.963-124.73 9.946L67.3 12.749C35.421 18.062 18.2 21.766 6.004 25.934 1.244 27.561.828 27.778.874 28.61c.07 1.214.828 1.121 9.595-1.176 9.072-2.377 17.15-3.92 39.246-7.496C123.565 7.986 157.869 4.492 195.942 5.046c7.461.108 19.25 1.696 19.17 2.582-.107 1.183-7.874 4.31-25.75 10.366-21.992 7.45-35.43 12.534-36.701 13.884-2.173 2.308-.202 4.407 4.442 4.734 2.654.187 3.263.157 15.593-.78 35.401-2.686 57.944-3.488 88.365-3.143 46.327.526 75.721 2.23 130.788 7.584 19.787 1.924 20.814 1.98 24.557 1.332l.066-.011c1.201-.203 1.53-1.825.399-2.335-2.911-1.31-4.893-1.604-22.048-3.261-57.509-5.556-87.871-7.36-132.059-7.842-23.239-.254-33.617-.116-50.627.674-11.629.54-42.371 2.494-46.696 2.967-2.359.259 8.133-3.625 26.504-9.81 23.239-7.825 27.934-10.149 28.304-14.005.417-4.348-3.529-6-16.878-7.066Z">
-                        </path>
-                    </svg>
-                    <span class="relative">&nbsp; future together</span>
-                    </span>
-                </div>
-            </h1>
-            <p class="mx-auto mt-3 max-w-xl text-lg text-gray-500 dark:text-slate-200 sm:mt-5 md:mt-5">
-                Enabling public awareness of climate issues to safeguard Earth with minimal environmental impact, fostering a sustainable future for generations to come.
-            </p>
-            <div class="flex flex-col gap-4 md:flex-row justify-center mt-4">
-                <div class="text-white bg-[#447c5a] hover:bg-[#447c5a] px-24 py-4 rounded-full text-white text-center font-semibold md:mix-w-36 drop-shadow-lg shadow shadow-gray-500">
-                    <NuxtLink to="/contact">Join us</NuxtLink>
-                </div>
-                <div class="text-white border-2 border-[#447c5a] hover:bg-[#447c5a] px-24 py-4 rounded-full text-white text-center font-semibold md:mix-w-36 ">
-                    <NuxtLink to="/contact">Sponsor Us</NuxtLink>
-                </div>
-            </div>
-        </div>
+<!-- <template>
+  <section class="bg-blue-500">
+    <div class="container mx-auto flex flex-col lg:flex-row items-center py-12">
+      <div class="lg:w-1/2 text-left">
+        <h1 class="text-4xl font-bold text-white mb-4">Welcome to Our Website</h1>
+        <p class="text-white mb-6">This is a simple hero section with text on the left and an image on the right.</p>
+        <button class="bg-white text-blue-500 font-bold py-2 px-4 rounded">Get Started</button>
+      </div>
+      <div class="lg:w-1/2 mt-6 lg:mt-0">
+        <nuxt-img src="https://via.placeholder.com/400" alt="Hero Image" class="w-full rounded-lg shadow-lg"></nuxt-img>
+      </div>
     </div>
-</div>
+  </section>
 </template>
 
-<style>
-    .back{
-        background-image: url("/public/bg.jpg");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-
-    .bg-animate {
-  /* Initial state (hidden) */
-    opacity: 0;
-    transform: translateY(20px); /* Add some vertical offset */
-
-  /* Animation properties */
-    animation: text-animation 1s ease-in-out forwards;
+<script>
+export default {
+  name: 'HeroSection',
 }
+</script>
 
-@keyframes bg-animation {
-    from {
-        opacity: 0;
-        transform: translateY(20px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
+<style scoped>
+/* Add any additional styling here */
+</style>
+ -->
+ <template>
+  <section class="bg-green-600 h-screen flex px-[16px] items-center">
+    <div class="container mx-auto flex flex-col lg:flex-row justify-center items-center py-12">
+      <div class="lg:w-1/2 text-left">
+        <h1 class="text-4xl font-bold text-white mb-4">Let's create a savoury and <span class='text-4xl'>cleaner</span> future together</h1>
+        <p class="text-white mb-6">Enabling public awareness of climate issues to safeguard Earth with minimal environmental impact, fostering a sustainable future for generations to come.</p>
+        <NuxtLink class="bg-white text-green-600 font-bold py-2 px-4 rounded" to="/about">About</NuxtLink>
+      </div>
+      <div class="lg:w-1/2 mt-6 lg:mt-0">
+        <div class="max-w-full ">
+                <AllCard />
+            </div>
+      </div>
+    </div>
+  </section>
+</template>
+
+<script>
 
 
-    .text-animate {
-  /* Initial state (hidden) */
-    opacity: 0;
-    transform: translateY(20px); /* Add some vertical offset */
+</script>
 
-  /* Animation properties */
-    animation: text-animation 1s ease-in-out forwards;
-}
-
-@keyframes text-animation {
-    from {
-        opacity: 0;
-        transform: translateY(20px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
+<style scoped>
+/* Add any additional styling here */
 </style>
