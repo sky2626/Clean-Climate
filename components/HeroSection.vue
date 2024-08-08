@@ -24,12 +24,16 @@ export default {
 </style>
  -->
  <template>
-  <section class="bg-green-600 h-screen flex px-[16px] items-center">
+  <section class="h-screen flex px-[16px] items-center">
     <div class="container mx-auto flex flex-col lg:flex-row justify-center items-center py-12">
       <div class="lg:w-1/2 text-left">
-        <h1 class="text-4xl font-bold text-white mb-4">Let's create a savoury and <span class='text-4xl'>cleaner</span> future together</h1>
-        <p class="text-white mb-6">Enabling public awareness of climate issues to safeguard Earth with minimal environmental impact, fostering a sustainable future for generations to come.</p>
-        <NuxtLink class="bg-white text-green-600 font-bold py-2 px-4 rounded" to="/about">About</NuxtLink>
+        <h1 class="text-4xl font-bold text-gray-600 mb-4">Let's create a savoury and <span class='text-4xl text-green-600 border-4 border-green-600 rounded-full px-4'>cleaner</span> future together</h1>
+        <p class="text-gray-400 mb-6">Enabling public awareness of climate issues to safeguard Earth with minimal environmental impact, fostering a sustainable future for generations to come.</p>
+        <div class="flex flex-col md:flex-row gap-8">
+          <NuxtLink class="bg-white text-green-600 font-bold py-2 px-4 rounded shadow-md" to="/about">Join us Now</NuxtLink>
+          <NuxtLink class="bg-white text-green-600 font-bold py-2 px-4 rounded shadow-md" to="/about">Sponser us</NuxtLink>
+        </div>
+        
       </div>
       <div class="lg:w-1/2 mt-6 lg:mt-0">
         <div class="max-w-full ">
