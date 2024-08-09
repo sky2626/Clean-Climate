@@ -2,7 +2,7 @@
     <div>
         
         <fresh />
-        <div class='bg-white pt-[70px] pb-[200px]'>
+        <div class='bg-white pb-[200px]'>
             <slot />
         </div>
         <div class="">

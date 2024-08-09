@@ -1,6 +1,6 @@
 <template>
     <nav class="bg-white shadow-md">
-      <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+      <div class="container mx-auto px-4 pt-4 pb-2 flex justify-between items-center">
         <!-- Logo -->
         <div class="text-2xl font-bold">
           <NuxtLink to="/">

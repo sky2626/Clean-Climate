@@ -5,10 +5,7 @@ import BlogPostsHome from '~/components/BlogPostsHome.vue';
 
 <template>
     <div class="bg-white screen ">
-        <div class=" bg-white screen">
-            <HeroSection />
-        </div>
-        <UIButton>Test Button</UIButton>
+        <HeroSection />
         <div class="px-4 my-24 gap-4 flex flex-col md:flex-row justify-center">
             <Card 
                 image="/bulb.png"

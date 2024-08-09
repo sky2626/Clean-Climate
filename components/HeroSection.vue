@@ -24,9 +24,9 @@ export default {
 </style>
  -->
  <template>
-  <section class="h-screen flex px-[16px] items-center">
-    <div class="container mx-auto flex flex-col lg:flex-row justify-center items-center py-12">
-      <div class="lg:w-1/2 text-left">
+  <section class="h-screen flex mx-4">
+    <div class="container mx-auto flex flex-col lg:flex-row items-center pb-12">
+      <div class="md:w-1/2 text-left">
         <h1 class="text-4xl text-center md:text-start font-bold text-gray-600 mb-4">Let's create a savoury and <span class='text-4xl text-green-600 border-4 border-green-600 rounded-full px-4'>cleaner</span> future together</h1>
         <p class="text-gray-400 text-center md:text-start mb-6">Enabling public awareness of climate issues to safeguard Earth with minimal environmental impact, fostering a sustainable future for generations to come.</p>
         <div class="flex flex-col md:flex-row gap-2 md:gap-8">
