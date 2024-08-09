@@ -3,8 +3,8 @@
     <div>
         <div class="flex justify-center items-center">
             <div class="back w-[1400px] h-[300px] flex justify-center items-center flex-col rounded-xl mx-[18px]">
-                <h1 class="text-3xl font-bold text-gray-300 text-center text-animate ">About Us</h1>
-                <p class="text-center text-gray-300 text-animate">What we do</p>
+                <h1 class="text-3xl font-bold text-white text-center text-animate ">About Us</h1>
+                <p class="text-center text-white text-animate">What we do</p>
             </div>
         </div>
         
@@ -71,7 +71,7 @@
 
 <style>
     .back{
-        background-image: url("./public/ab.jpg");
+        background-image: url("https://cdn.pixabay.com/photo/2024/04/03/06/09/ai-generated-8672147_1280.jpg");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;

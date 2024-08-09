@@ -1,6 +1,7 @@
 <template>
     <div>
-        <MyNav />
+        
+        <fresh />
         <div class='bg-white pt-[70px] pb-[200px]'>
             <slot />
         </div>
