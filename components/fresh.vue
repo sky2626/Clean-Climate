@@ -21,10 +21,14 @@
             </div>
     
         <!-- Mobile Menu Button -->
-        <div class="lg:hidden">
-          <button @click="toggleMenu" class="focus:outline-none">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+        <div class="md:hidden">
+          <button class="haver:bg-" @click="drawer">
+            <svg 
+              class="h-8 w-8 fill-current text-black"
+              fill="none" stroke-linecap="round" 
+              stroke-linejoin="round" stroke-width="2" 
+              viewBox="0 0 24 24" stroke="currentColor">
+                <path d="M4 6h16M4 12h16M4 18h16"></path>
             </svg>
           </button>
         </div>
@@ -69,7 +73,10 @@
     methods: {
         toggleDropdown() {
         this.isOpen = !this.isOpen;
-    }
+    },
+        drawer() {
+            this.isOpen = !this.isOpen;
+        },
   },
 }
 </script>
