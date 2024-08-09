@@ -58,7 +58,7 @@ import BlogPostsHome from '~/components/BlogPostsHome.vue';
                 <div class="mt-[100px]">
                     <h1 class='text-3xl text-gray-600 font-bold text-animate'>Latest Update</h1>
                     <hr>
-                    <div class="flex justify-center flex-col items-center">
+                    <div class="flex justify-center flex-row md:flex-col items-center">
                         <BlogPostsHome />
                         <div class="text-lg text-green-600 font-semibold text-semibold px-2 rounded-lg hover:bg-green-600 hover:text-white">
                             <NuxtLink  to="/blog">Read More</NuxtLink>
