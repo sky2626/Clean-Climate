@@ -1,19 +1,17 @@
 <template>
-  <div class="pt-8 flex items-center flex-col md:flex-row gap-[18px]">
-
-      <NuxtLink class="flex items-center flex-col md:flex-row gap-[18px]" 
+  <div class="pt-8">
+    <div class="flex items-center flex-col md:flex-row gap-[18px]">
+      
+        <BlogPost
         v-for="post in filteredPosts"
         :key="post.id"
-        :to="{ name: 'post-detail', params: { id: post.id } }
-        ">
-        <BlogPost
-          :title="post.title"
-          :date="post.date"
-          :content="post.content"
-          :image="post.image"
-      />
-      </NuxtLink>
-
+        :title="post.title"
+        :date="post.date"
+        :content="post.content"
+        :image="post.image"
+        />
+      
+    </div>
   </div>
 </template>
 
