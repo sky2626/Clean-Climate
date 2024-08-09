@@ -64,7 +64,6 @@
     return {
       dropdownItems: [
         [{ label: 'Climate Stimulation', to: 'https://climatekids.nasa.gov/' }],
-        [{ label: 'Articles', to: '/resources/articles' }],
         [{ label: 'Blog', to: '/blog' }]
       ]
     }

@@ -4,7 +4,7 @@
         <div v-for="item in paginatedItems" :key="item.id" class="bg-white p-4 rounded-lg shadow-md">
           <img :src="item.image" alt="Item Image" class="w-full h-48 object-cover rounded-lg mb-4">
           <h2 class="text-xl font-bold text-gray-600">{{ item.title }}</h2>
-          <p>{{ item.description }}</p>
+          <p class="text-gray-400">{{ item.description }}</p>
           <button @click="openModal(item)" class="mt-2 bg-green-600 text-white py-2 px-4 rounded">View More</button>
         </div>
       </div>
@@ -33,15 +33,15 @@
     data() {
       return {
         items: [
-          { id: 1, title: 'Item 1', description: 'Description for item 1', image: 'https://via.placeholder.com/400' },
-          { id: 2, title: 'Item 2', description: 'Description for item 2', image: 'https://via.placeholder.com/400' },
-          { id: 3, title: 'Item 3', description: 'Description for item 3', image: 'https://via.placeholder.com/400' },
-          { id: 4, title: 'Item 4', description: 'Description for item 4', image: 'https://via.placeholder.com/400' },
-          { id: 5, title: 'Item 5', description: 'Description for item 5', image: 'https://via.placeholder.com/400' },
-          { id: 6, title: 'Item 6', description: 'Description for item 6', image: 'https://via.placeholder.com/400' },
-          { id: 7, title: 'Item 7', description: 'Description for item 7', image: 'https://via.placeholder.com/400' },
-          { id: 8, title: 'Item 8', description: 'Description for item 8', image: 'https://via.placeholder.com/400' },
-          { id: 9, title: 'Item 9', description: 'Description for item 9', image: 'https://via.placeholder.com/400' },
+          { id: 1, title: 'Transition to Renewable Energy', description: 'Replace fossil fuels with renewable energy sources such as solar, wind, hydroelectric, and geothermal power.', image: 'https://cdn.pixabay.com/photo/2017/09/12/13/21/photovoltaic-system-2742302_1280.jpg' },
+          { id: 2, title: 'Reforestation and Afforestation', description: 'Plant trees on degraded land and restore forests. Afforestation involves planting trees on land that has not previously been forested.', image: 'https://cdn.pixabay.com/photo/2023/06/22/07/13/soil-8080788_1280.jpg' },
+          { id: 3, title: 'Green Manufacturing', description: 'Adopt cleaner production technologies and processes that reduce emissions in industries like cement, steel, and chemicals.', image: 'https://cdn.pixabay.com/photo/2017/10/23/14/19/machine-2881168_1280.jpg' },
+          { id: 4, title: 'Climate-Smart Agriculture', description: 'Implement farming practices that increase productivity while reducing emissions, such as precision agriculture, optimized fertilizer use, and improved livestock management.', image: 'https://cdn.pixabay.com/photo/2020/06/23/06/45/dji-5331570_960_720.jpg' },
+          { id: 5, title: 'Electrification of Transport', description: 'Transition to electric vehicles (EVs) and invest in public transportation powered by renewable energy.', image: 'https://cdn.pixabay.com/photo/2022/02/24/08/43/bus-7032023_960_720.jpg' },
+          { id: 6, title: 'Transition to Renewable Energy', description: 'Expand the deployment of renewable energy sources, such as solar and wind, in the electricity grid.', image: 'https://cdn.pixabay.com/photo/2022/07/24/17/55/wind-energy-7342177_1280.jpg' },
+          { id: 7, title: 'Reduce, Reuse, Recycle', description: 'Encourage waste reduction at the source, increase recycling rates, and promote the reuse of materials.', image: 'https://cdn.pixabay.com/photo/2014/01/03/01/54/recycle-237874_960_720.jpg' },
+          { id: 8, title: 'Green Infrastructure', description: 'Develop urban green spaces, green roofs, and urban forests to combat the urban heat island effect and absorb CO2.', image: 'https://cdn.pixabay.com/photo/2016/11/18/22/31/architecture-1837176_960_720.jpg' },
+          { id: 9, title: 'International Cooperation', description: 'Countries must work together under frameworks like the Paris Agreement to set and meet ambitious climate targets. Sharing technology, knowledge, and financial resources is key to addressing global climate change.', image: 'https://cdn.pixabay.com/photo/2016/08/09/10/25/earth-1580260_1280.jpg' },
         ],
         currentPage: 1,
         itemsPerPage: 3,
