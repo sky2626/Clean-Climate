@@ -1,7 +1,12 @@
 <template>
   <div class="pt-8">
-    <div class="flex items-center flex-col md:flex-row gap-[18px]">
-      <BlogPost
+
+      <NuxtLi class="flex items-center w-full md:w-auto flex-col md:flex-row gap-[18px]" 
+        v-for="post in filteredPosts"
+        :key="post.id"
+        :to="{ name: 'post-detail', params: { id: post.id } }
+        ">
+        <BlogPost
         v-for="post in filteredPosts"
         :key="post.id"
         :title="post.title"
@@ -9,7 +14,8 @@
         :content="post.content"
         :image="post.image"
       />
-    </div>
+      </NuxtLi>
+
   </div>
 </template>
 

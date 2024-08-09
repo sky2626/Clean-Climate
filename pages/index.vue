@@ -7,7 +7,7 @@ import BlogPostsHome from '~/components/BlogPostsHome.vue';
     <div class="bg-white screen ">
         <HeroSection />
         
-        <div class="flex justify-center items-center flex-col mt-24 px-4 md:px-8">
+        <div class="flex justify-center items-center flex-col  px-4 md:px-8">
             <h1 class="text-gray-600 text-4xl font-extrabold text-center">
             Let's make our Climate <span>cleaner & sustainable</span>
             </h1>

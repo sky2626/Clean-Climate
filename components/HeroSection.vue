@@ -30,8 +30,8 @@ export default {
         <h1 class="text-4xl text-center md:text-start font-bold text-gray-600 mb-4 text-animate">Let's create a savoury and <span class='text-4xl text-green-600 border-4 border-green-600 rounded-full px-4'>cleaner</span> future together</h1>
         <p class="text-gray-400 text-center md:text-start mb-6 text-animate">Enabling public awareness of climate issues to safeguard Earth with minimal environmental impact, fostering a sustainable future for generations to come.</p>
         <div class="flex flex-col md:flex-row gap-2 md:gap-8">
-          <NuxtLink class="bg-white text-center text-green-600 font-bold py-2 px-4 rounded shadow-md scroll-down" to="/about">Join us Now</NuxtLink>
-          <NuxtLink class="bg-white text-center text-green-600 font-bold py-2 px-4 rounded shadow-md scroll-down" to="/about">Sponser us</NuxtLink>
+          <NuxtLink class="bg-white text-center text-green-600 font-bold py-2 px-4 rounded shadow-md scroll-down" to="/about">Join us</NuxtLink>
+         
         </div>
         
       </div>
