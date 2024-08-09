@@ -6,18 +6,7 @@ import BlogPostsHome from '~/components/BlogPostsHome.vue';
 <template>
     <div class="bg-white screen ">
         <HeroSection />
-        <div class="px-4 my-24 gap-4 flex flex-col md:flex-row justify-center">
-            <Card 
-                image="/bulb.png"
-                title="Afforestation Impact on the environment"
-                description="This is the description for card 1."
-            />
-            <Card 
-                image="/co2.png"
-                title="Impact of carbon monoxide"
-                description="This is the description for card 2."
-            />
-        </div>
+        
         <div class="flex justify-center items-center flex-col mt-24 px-4 md:px-8">
             <h1 class="text-gray-600 text-4xl font-extrabold text-center">
             Let's make our Climate <span>cleaner & sustainable</span>
