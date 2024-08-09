@@ -4,10 +4,8 @@
         <!-- Logo -->
         <div class="text-2xl font-bold">
           <NuxtLink to="/">
-            <div>
-                <img src="/logo-2.png" alt="logo img" hight="" width="">s
-            </div>
-        </NuxtLink>
+                    <img src="/logo-2.png" alt="logo img" hight="" width="">
+            </NuxtLink>
         </div>
         <!-- Desktop Menu -->
         <div class="hidden md:flex items-center space-x-6">
